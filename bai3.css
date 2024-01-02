@@ -1,0 +1,43 @@
+
+.square{
+    border: 1px aqua solid;
+    height: 150px;
+    width: 150px;
+    background-color:aqua;
+    transition: height: 2s width: 2s;
+}
+.square:hover {
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 40px;
+} 
+
+
+.hinh2{
+   border-top-right-radius: 50px; 
+   border-bottom-left-radius: 50px;
+   border-bottom-right-radius: 50px;
+   border-top-left-radius: 50px;
+   height: 150px;
+   width: 150px;
+   background-color: rgb(192, 106, 106);
+   transition: height: 2s width: 2s;
+}
+.hinh2:hover {
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: 40px;
+    
+}
+.circle{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    transition: height: 2s width: 2s;
+}
+.circle:hover {
+    height: 150px;
+    width: 150;
+    background-color: aqua;
+}
